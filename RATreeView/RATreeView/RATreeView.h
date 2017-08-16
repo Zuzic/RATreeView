@@ -591,6 +591,7 @@ typedef enum RATreeViewRowAnimation {
 - (void)reloadData;
 - (void)reloadRowsForItems:(NSArray *)items withRowAnimation:(RATreeViewRowAnimation)animation;
 - (void)reloadRows;
+- (void)refreshData;
 
 
 ///------------------------------------------------

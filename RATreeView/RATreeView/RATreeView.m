@@ -572,6 +572,11 @@
   [self.tableView reloadSections:indexSet withRowAnimation:UITableViewRowAnimationNone];
 }
 
+- (void)refreshData
+{
+  [self.tableView reloadData];
+}
+
 
 #pragma mark - UIScrollView's properties
 
